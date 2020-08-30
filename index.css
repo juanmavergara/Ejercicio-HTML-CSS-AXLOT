@@ -1,0 +1,304 @@
+
+.greyText {
+  color: #A4A1A1; 
+}
+
+.orangeText {
+  color: #FE2C00;
+}
+
+.alignedCenter {
+  text-align: center;
+}
+
+#mainContainer {
+  margin: 0 5% 0 5%; 
+}
+
+/* ----------------------------------------- */
+/* Top */
+
+#top {
+  color: white;
+  background-color: #FE2C00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12% 6% 6% 6%;
+  margin: -5% 0 0 -5%;
+  width: 100%;
+}
+
+#top span {
+  font-size: 5vw;
+  padding-right: 25vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+#top img {
+  height: 5vw;
+  width: 5vw;
+  padding-left: 5%;
+}
+
+/* ----------------------------------------- */
+
+
+/*----------------------------------------- */
+/* User Info */
+#userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin : 5% 0;
+}
+
+#iconAndUser {
+  display: flex;
+  align-items: center;
+}
+
+#nameText {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 7vw;
+  margin: 0 0 15% 100%;
+}
+
+#userIcon {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+}
+
+#medalsCount {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 10vw;
+  height: 10vw;
+}
+
+#medalsIcon{
+  height: 200%;
+  width: auto;
+  padding-right: 5%;
+}
+/* ---------------------------------------- */
+
+
+
+/* -------------------------------------------------- */
+/* Buttons */
+
+#btnYesterday {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  width: 28vw;
+  height: 7vw;
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  border-radius: 18px 0px 0px 18px;
+  margin: -7px;
+  border: none;
+}
+
+#btnToday {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  width: 28vw;
+  height: 7vw;
+  background: transparent linear-gradient(180deg, #F26C4F 0%, #FE2C00 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-right: -7px;
+  border: none;
+}
+
+#btnTomorrow {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  width: 28vw;
+  height: 7vw;
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  border-radius: 0px 18px 18px 0px;
+  border: none;
+  margin: 0;
+}
+/* ---------------------------------------------------- */
+
+
+
+
+/* ---------------------------- */
+/* Tasks */
+    .task {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      margin-top: 5%;
+      height: 20vw;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+    }
+    
+    .taskIcon {
+      height: 80%;
+      margin: 0 1% 0 5%;
+    }
+    
+    .taskText {
+      display: inline-block;
+      margin-left: 5%;
+    }
+
+    #firstTaskText {
+      margin-right: 20%;
+    }
+    #secondTaskText {
+      margin-right: 35%;
+    }
+    #thirdTaskText {
+      margin-right: 25%;
+    }
+    
+    .taskTitleOngoing {
+      color: #FE2C00;
+      font-size: 5vw;
+    }
+
+    .taskTitleFinished {
+      color: #A4A1A1;
+      font-size: 5vw;
+    }
+    
+    .taskSubtitle {
+      color: #A4A1A1;
+      font-size: 3vw;
+    }
+    
+    .taskCheckbox {
+      position: absolute; 
+      top: 10%;
+      left: 90%;
+      border: 2px solid #D1D1D1;
+      border-radius: 5px;
+      opacity: 1;
+      width: 8%;
+      height: 33%;
+    }
+
+    /* -------------------------------------- */
+    /* PRUEBA CHECKBOX */
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      align-self: flex-start;
+      margin: 2% 2% 0 0;
+    }
+    
+    .checkbox-container label {
+      cursor: pointer;
+      display: flex;
+    }
+    
+    .checkbox-container input[type='checkbox'] {
+      cursor: pointer;
+      opacity: 0; 
+      position: absolute;
+    }
+    
+    .checkbox-container label::before {
+      content: '';
+      width: 7vw;
+      height: 7vw;
+      border-radius: .15vw;
+      margin-right: .5vw;
+      border: 2px solid #D1D1D1;
+      border-radius: 5px;
+    }
+    
+    
+    .checkbox-container input[type='checkbox']:checked + label::before {
+      content: '\002714';
+      background-color: #FE2C00;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    
+    .checkbox-container input[type='checkbox']:disabled + label::before {
+      background-color: #ccc;
+      border-color: #999;
+    }
+    /* -------------------------------------- */
+
+    .taskCheckbox:checked {
+      background-color: #FE2C00;
+    }
+
+    .imgContainer {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 25%;
+    }
+    
+    .orangeEllipse {
+      height: 85%;
+      margin-left: 15%;
+      margin-right: -49%;
+    }
+    
+    .greyEllipse {
+      height: 110%;
+      margin: 4% -50% 0 4%;
+    }
+    
+    #bathroomIcon {
+      height: 40%;
+      margin-left: -4%;
+    }
+    
+    #petsIcon {
+      height: 40%;
+      margin: 0 0 6% -22%;
+    }
+    
+    #livingRoomIcon{
+      height: 30%;
+      margin-left: -15%;
+    }
+/* ---------------------------- */
+
+
+#separator {
+  border: 1px solid; 
+  color: #D1D1D1;
+}
+
+
+/* ---------------------------- */
+/* Below */
+
+#below {
+  margin-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.belowText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4.4vw;
+}
+
+#allowanceAmount {
+  font-size: 5.65vw;
+}
+/* ---------------------------- */

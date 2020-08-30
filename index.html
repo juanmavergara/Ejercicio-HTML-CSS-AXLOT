@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ejercicio</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  
+  <div id="top">
+    <img src="./static/ic_menu_white.svg" alt="">
+    <span>KID DASHBOARD</span>
+    <img src="./static/ic_more_vert_white.svg" alt="">
+  </div>
+
+  <div id="mainContainer">
+    <div id="userInfo">
+      <span id="iconAndUser">
+        <img src="./static/userIcon.svg" alt="userIcon" id="userIcon">
+        <span class="orangeText" id="nameText">John</span>
+      </span>
+      <span id="medalsCount">
+        <img src="./static/userMedals.svg" alt="medals" id="medalsIcon">
+        <span>+5</span>
+      </span>
+    </div>
+
+    <div id="buttons" class="alignedCenter">
+      <button id="btnYesterday" class="greyText">Yesterday</button>
+      <button id="btnToday" style="color: white;">Today</button>
+      <button id="btnTomorrow" class="greyText">Tomorrow</button>
+    </div>
+
+    <div id="firstTask" class="task">
+      <div class="imgContainer">
+        <img src="./static/EllipseOrange.svg" alt="" class="orangeEllipse">
+        <img id="bathroomIcon" src="./static/towelsIcon.svg" alt="">
+      </div>
+      <div id="firstTaskText" class="taskText">
+        <div class="taskTitleOngoing">Change towels</div>
+        <div class="taskSubtitle">BATHROOM</div>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="cb1">
+        <label for="cb1"></label>
+      </div>
+    </div>
+    
+    <div id="secondTask" class="task">
+      <div class="imgContainer">
+        <img src="./static/EllipseGrey.svg" alt="" class="greyEllipse">
+        <img src="./static/feedCatIcon.svg" alt="" id="petsIcon">
+      </div>
+      <div id="secondTaskText" class="taskText">
+        <div class="taskTitleFinished">Feed Cat</div>
+        <div class="taskSubtitle">PETS</div>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="cb1">
+        <label for="cb1"></label>
+      </div>
+    </div>
+
+    <div id="thirdTask" class="task">
+      <div class="imgContainer">
+        <img src="./static/EllipseOrange.svg" alt="" class="orangeEllipse">
+        <img id="livingRoomIcon" src="./static/swipeFloorIcon.svg" alt="">
+      </div>
+      <div id="thirdTaskText" class="taskText">
+        <div class="taskTitleOngoing">Swipe Floor</div>
+        <div class="taskSubtitle">LIVING ROOM</div>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="cb1">
+        <label for="cb1"></label>
+      </div>
+    </div>
+
+    <hr id="separator">
+
+    <div id="below">
+      <div class="belowText orangeText">
+        <span>THIS WEEK ALLOWANCE</span>
+        <span id="allowanceAmount">$20.00</span>
+      </div>
+
+      <div class="belowText greyText">
+        <span>TOTALLY EARNED</span>
+        <span>$250.00</span>
+      </div>
+    </div>
+  
+  </div>
+
+</body>
+</html>
